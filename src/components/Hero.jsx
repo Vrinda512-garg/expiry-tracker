@@ -1,20 +1,19 @@
+
+
+
+import HeroContent from "./HeroContent";
+import HeroVisual from "./HeroVisual";
+
 function Hero() {
   return (
-    <section className="hero">
+    <section className="relative min-h-screen bg-[#080808] flex items-center">
+      <div className="mx-auto grid max-w-7xl grid-cols-2 items-center gap-20 px-10">
 
-      <h1>
-        Never Miss an Expiry Date Again
-      </h1>
+        <HeroContent />
 
-      <p>
-        Track your food, medicines and cosmetics
-        with smart expiry reminders.
-      </p>
+        <HeroVisual />
 
-      <button>
-        Add Product
-      </button>
-
+      </div>
     </section>
   );
 }
