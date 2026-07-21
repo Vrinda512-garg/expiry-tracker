@@ -28,13 +28,20 @@ function HeroContent() {
         AI Powered Expiry Intelligence
       </p>
 
-      <h1 className="text-7xl font-bold leading-tight text-white">
-        AI Never Sleeps.
-      </h1>
+      <div className="mb-6">
+  <h1 className="animate-pulse text-8xl font-black tracking-tight text-white">
+    Expiry
+    <span className="text-yellow-400">AI</span>
+  </h1>
+</div>
 
-      <h2 className="mt-3 text-5xl font-semibold text-gray-300">
-        So Your Products Don't Expire.
-      </h2>
+<h2 className="text-5xl font-bold leading-tight text-white">
+  AI Never Sleeps.
+</h2>
+
+<h3 className="mt-3 text-3xl text-gray-300">
+  So Your Products Don't Expire.
+</h3>
 
       <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-gray-400">
         Smart AI powered expiry tracking for groceries, medicines,
@@ -43,11 +50,11 @@ function HeroContent() {
 
       <div className="mt-16">
 
-        <p className="text-gray-500">
-          Designed for
-        </p>
+       <p className="text-lg text-gray-300">
+  Built for
+</p>
 
-        <h3 className="mt-4 text-5xl font-bold text-yellow-400">
+        <h3 className="mt-3 text-3xl font-semibold text-yellow-300">
           {words[index]}
         </h3>
 

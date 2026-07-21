@@ -1,12 +1,14 @@
 import Navbar from "../../components/navbar/Navbar";
 import Hero from "../../components/hero/Hero";
+import Experience from "../../components/experience/Experience";
 
 function Home() {
   return (
-    <div className="bg-[#090909]">
+    <>
       <Navbar />
       <Hero />
-    </div>
+      <Experience />
+    </>
   );
 }
 

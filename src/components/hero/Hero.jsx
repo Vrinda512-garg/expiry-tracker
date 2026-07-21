@@ -12,8 +12,10 @@ function Hero() {
       <img
         src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=1800&auto=format&fit=crop"
         alt=""
-        className="absolute inset-0 h-full w-full object-cover opacity-20"
+        className="absolute inset-0 h-full w-full object-cover opacity-70"
       />
+
+      <div className="absolute inset-0 bg-black/60"></div>
 
       <div className="relative z-10">
         <HeroContent />
